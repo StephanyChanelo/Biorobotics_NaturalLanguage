@@ -1,6 +1,7 @@
 # Biorobotics_NaturalLanguage
 Using the Spacy Parser to build the conceptual dependencies
 
+## Setup
 **Clone this repository into the src folder:**
 
 ```ruby
@@ -29,5 +30,19 @@ cd catkin_ws
 source devel/setup.bash
 catkin_make
 ```
+
+## Initialization
+**Start ROS in one terminal**
+
+```ruby
+roscore
+```
+
+**Start the nlu_server on a different terminal**
+
+```ruby
+rosrun biorobotics_nlu nlu_server.py
+```
+
 
 
