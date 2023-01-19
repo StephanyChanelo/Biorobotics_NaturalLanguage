@@ -48,6 +48,9 @@ rosrun biorobotics_nlu nlu_server.py
 
 **- python client**
 
+```ruby
+rosrun biorobotics_nlu nlu_client.py
+```
 ```
 NOTE 1: The client will ask you for a command.
 NOTE 2: The personal pronouns have to start with capital letters: Robot, Mary, John
@@ -57,15 +60,11 @@ For example:
 * go to the kitchen, find Mary and deliver an apple to her
 * Robot, give me an apple
 ```
-```ruby
-rosrun biorobotics_nlu nlu_client.py
-```
 
 **- c++ client**
 ```
 NOTE 1: You need to give a command just after the name of the script.
 NOTE 2: The personal pronouns have to start with capital letters: Robot, Mary, John
-
 ```
 
 ```ruby
