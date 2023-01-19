@@ -71,5 +71,8 @@ NOTE 2: The personal pronouns have to start with capital letters: Robot, Mary, J
 rosrun biorobotics_nlu nlu_server_client_c go to the kitchen
 ```
 
-
+**You will have a result like that**
+```
+ptrans((actor robot)(object robot)(to the kitchen))
+```
 
