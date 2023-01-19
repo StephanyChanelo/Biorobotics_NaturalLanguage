@@ -45,19 +45,28 @@ rosrun biorobotics_nlu nlu_server.py
 ```
 ## Usage
 **Run the nlu_client on a different terminal**
-**python client**
-```ruby
-rosrun biorobotics_nlu nlu_client.py
-```
 
-**c++ client**
-```NOTE 1: You need to give a command after the name of the script.
-Note 2: The personal pronouns have to start with capital letters: Robot, Mary, John
+**- python client**
+
+```
+NOTE 1: The client will ask you for a command.
+NOTE 2: The personal pronouns have to start with capital letters: Robot, Mary, John
 For example: 
 * go to the bedroom
 * give the book to the mother
 * go to the kitchen, find Mary and deliver an apple to her
-* Robot, give me an apple```
+* Robot, give me an apple
+```
+```ruby
+rosrun biorobotics_nlu nlu_client.py
+```
+
+**- c++ client**
+```
+NOTE 1: You need to give a command just after the name of the script.
+NOTE 2: The personal pronouns have to start with capital letters: Robot, Mary, John
+
+```
 
 ```ruby
 rosrun biorobotics_nlu nlu_server_client_c go to the kitchen
