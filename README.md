@@ -6,3 +6,8 @@ Using the Spacy Parser to build the conceptual dependencies
 ```ruby
 git clone https://github.com/StephanyChanelo/Biorobotics_NaturalLanguage
 ```
+**You need a structure like this:**
+
+1. catkin_ws
+   - src
+     - biorobotics_nlu
