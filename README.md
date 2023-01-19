@@ -1,13 +1,33 @@
 # Biorobotics_NaturalLanguage
 Using the Spacy Parser to build the conceptual dependencies
 
-**Clone the repository**
+**Clone this repository into the src folder:**
 
 ```ruby
 git clone https://github.com/StephanyChanelo/Biorobotics_NaturalLanguage
 ```
-**You need a structure like this:**
+**You need a structure like this: catkin_ws/src/biorobotics_nlu**
+```
+├── ...
+| catkin_ws                   
+│   └── src         
+│        └── biorobotics_nlu         
+|              └── ...
+└──
+```
+**You may need to install the spacy library: https://spacy.io/usage**
 
-1. catkin_ws
-   - src
-     - biorobotics_nlu
+```ruby
+pip install -U pip setuptools wheel
+pip install -U spacy
+python -m spacy download en_core_web_sm
+```
+
+**Build the project**
+```ruby
+cd catkin_ws
+source devel/setup.bash
+catkin_make
+```
+
+
