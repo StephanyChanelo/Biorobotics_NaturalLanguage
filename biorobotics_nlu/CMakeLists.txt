@@ -163,7 +163,7 @@ add_dependencies(nlu_client_c biorobotics_nlu_gencpp)
 
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
-catkin_install_python(PROGRAMS scripts/add_two_ints_server.py scripts/add_two_ints_client.py scripts/nlu_server.py scripts/nlu_client.py
+catkin_install_python(PROGRAMS scripts/nlu_server.py scripts/nlu_client.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
